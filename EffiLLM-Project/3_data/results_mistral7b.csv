@@ -1,0 +1,68 @@
+problem,model,function,input,expected,output,is_correct,time_taken
+dp_001,mistral7b,maxProfit,5,5,5,True,1.2900010915473104e-05
+dp_001,mistral7b,maxProfit,0,0,0,True,3.9000005926936865e-06
+dp_002,mistral7b,getRow,,"[1, 3, 3, 1]",❌ Exception: integer division or modulo by zero,False,
+dp_002,mistral7b,getRow,[1],[1],[1],True,2.0999868866056204e-06
+dp_002,mistral7b,getRow,,"[1, 1]",❌ Exception: integer division or modulo by zero,False,
+dp_003,mistral7b,fib,1,1,1,True,1.2600008631125093e-05
+dp_003,mistral7b,fib,2,2,2,True,5.599984433501959e-06
+dp_003,mistral7b,fib,3,3,3,True,2.200016751885414e-06
+dp_004,mistral7b,generate,,"[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]",❌ Exception: list index out of range,False,
+dp_004,mistral7b,generate,[[1]],[[1]],[[1]],True,1.500011421740055e-06
+dp_005,mistral7b,getMaximumGenerated,,3,❌ Exception: list index out of range,False,
+dp_005,mistral7b,getMaximumGenerated,,1,❌ Exception: list index out of range,False,
+dp_005,mistral7b,getMaximumGenerated,,2,❌ Exception: list index out of range,False,
+dp_006,mistral7b,minCostClimbingStairs,15,15,15,True,1.2299977242946625e-05
+dp_006,mistral7b,minCostClimbingStairs,,6,104,False,8.300004992634058e-06
+dp_007,mistral7b,divisorGame,True,True,True,True,5.399982910603285e-06
+dp_007,mistral7b,divisorGame,False,False,False,True,1.8999853637069464e-06
+dp_008,mistral7b,isSubsequence,,True,❌ Exception: maximum recursion depth exceeded,False,
+dp_008,mistral7b,isSubsequence,,False,❌ Exception: maximum recursion depth exceeded,False,
+dp_009,mistral7b,findLength,,3,0,False,1.1600001016631722e-05
+dp_009,mistral7b,findLength,,5,0,False,1.3599987141788006e-05
+dp_010,mistral7b,soupServings,,0.625,200.0,False,0.001122200017562136
+dp_010,mistral7b,soupServings,,0.71875,400.0,False,0.0012323999835643917
+dp_011,mistral7b,subarrayBitwiseORs,,1,❌ Exception: 'set' object is not subscriptable,False,
+dp_011,mistral7b,subarrayBitwiseORs,,3,❌ Exception: 'set' object is not subscriptable,False,
+dp_011,mistral7b,subarrayBitwiseORs,,6,❌ Exception: 'set' object is not subscriptable,False,
+dp_012,mistral7b,mctFromLeafValues,,32,❌ Exception: list index out of range,False,
+dp_012,mistral7b,mctFromLeafValues,,44,❌ Exception: list index out of range,False,
+dp_013,mistral7b,maximumScoreAfterOperations,,11,21,False,4.529999569058418e-05
+dp_013,mistral7b,maximumScoreAfterOperations,,40,78,False,1.9000028260052204e-05
+dp_014,mistral7b,squareFreeSubsets,,3,❌ Exception: unsupported operand type(s) for <<: 'int' and 'float',False,
+dp_014,mistral7b,squareFreeSubsets,,1,0,False,2.479998511262238e-05
+dp_015,mistral7b,maxResult,,7,❌ Exception: list index out of range,False,
+dp_015,mistral7b,maxResult,,17,❌ Exception: list index out of range,False,
+dp_015,mistral7b,maxResult,,0,❌ Exception: list index out of range,False,
+dp_016,mistral7b,coinChange,3,3,3,True,2.920001861639321e-05
+dp_016,mistral7b,coinChange,,-1,inf,False,5.89998671784997e-06
+dp_016,mistral7b,coinChange,,0,-1,False,8.00006091594696e-07
+dp_017,mistral7b,minFlips,,2,3,False,4.349998198449612e-05
+dp_017,mistral7b,minFlips,,0,1,False,4.8999791033566e-06
+dp_017,mistral7b,minFlips,1,1,1,True,1.00000761449337e-06
+dp_018,mistral7b,maxAlternatingSum,,7,20,False,2.680000034160912e-05
+dp_018,mistral7b,maxAlternatingSum,,8,37,False,7.099995855242014e-06
+dp_018,mistral7b,maxAlternatingSum,,10,39,False,7.69997132010758e-06
+dp_019,mistral7b,minimumVisitedCells,-1,-1,-1,True,2.449998282827437e-05
+dp_019,mistral7b,minimumVisitedCells,-1,-1,-1,True,6.500020390376449e-06
+dp_020,mistral7b,maxEnvelopes,,3,1,False,2.4800014216452837e-05
+dp_020,mistral7b,maxEnvelopes,1,1,1,True,6.89999433234334e-06
+dp_021,mistral7b,dieSimulator,,34,"❌ Exception: can only concatenate list (not ""int"") to list",False,
+dp_021,mistral7b,dieSimulator,,30,"❌ Exception: can only concatenate list (not ""int"") to list",False,
+dp_021,mistral7b,dieSimulator,,181,"❌ Exception: can only concatenate list (not ""int"") to list",False,
+dp_022,mistral7b,sellingWood,,19,❌ Exception: 'int' object is not iterable,False,
+dp_022,mistral7b,sellingWood,,32,❌ Exception: 'int' object is not iterable,False,
+dp_023,mistral7b,maxProfit,2,2,2,True,1.960000372491777e-05
+dp_023,mistral7b,maxProfit,,7,❌ Exception: list index out of range,False,
+dp_024,mistral7b,cheapestJump,,"[1, 3, 5]",❌ Exception: 'Solution' object has no attribute 'cheapest_jump',False,
+dp_024,mistral7b,cheapestJump,,[],❌ Exception: 'Solution' object has no attribute 'cheapest_jump',False,
+dp_025,mistral7b,uniqueLetterString,,10,❌ Exception: 'Solution' object has no attribute 'countUniqueChars',False,
+dp_025,mistral7b,uniqueLetterString,,8,❌ Exception: 'Solution' object has no attribute 'countUniqueChars',False,
+dp_025,mistral7b,uniqueLetterString,,92,❌ Exception: 'Solution' object has no attribute 'countUniqueChars',False,
+dp_026,mistral7b,numWays,4,4,4,True,5.5500015150755644e-05
+dp_026,mistral7b,numWays,2,2,2,True,1.5400000847876072e-05
+dp_026,mistral7b,numWays,8,8,8,True,1.5600002370774746e-05
+dp_027,mistral7b,beautifulPartitions,,,"❌ Load error: 'return' outside function (mistral.py, line 23)",False,
+dp_028,mistral7b,maxDotProduct,,18,❌ Exception: list index out of range,False,
+dp_028,mistral7b,maxDotProduct,,21,❌ Exception: list index out of range,False,
+dp_028,mistral7b,maxDotProduct,,-1,❌ Exception: list index out of range,False,

@@ -1,0 +1,1043 @@
+{
+  "dp_001": {
+    "function": "maxProfit",
+    "testcases": [
+      {
+        "input": [
+          [
+            7,
+            1,
+            5,
+            3,
+            6,
+            4
+          ]
+        ],
+        "expected": 5
+      },
+      {
+        "input": [
+          [
+            7,
+            6,
+            4,
+            3,
+            1
+          ]
+        ],
+        "expected": 0
+      }
+    ]
+  },
+  "dp_002": {
+    "function": "getRow",
+    "testcases": [
+      {
+        "input": [
+          3
+        ],
+        "expected": [
+          1,
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "input": [
+          0
+        ],
+        "expected": [
+          1
+        ]
+      },
+      {
+        "input": [
+          1
+        ],
+        "expected": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "dp_003": {
+    "function": "fib",
+    "testcases": [
+      {
+        "input": [
+          2
+        ],
+        "expected": 1
+      },
+      {
+        "input": [
+          3
+        ],
+        "expected": 2
+      },
+      {
+        "input": [
+          4
+        ],
+        "expected": 3
+      }
+    ]
+  },
+  "dp_004": {
+    "function": "generate",
+    "testcases": [
+      {
+        "input": [
+          5
+        ],
+        "expected": [
+          [
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            3,
+            1
+          ],
+          [
+            1,
+            4,
+            6,
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "input": [
+          1
+        ],
+        "expected": [
+          [
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "dp_005": {
+    "function": "getMaximumGenerated",
+    "testcases": [
+      {
+        "input": [
+          7
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          2
+        ],
+        "expected": 1
+      },
+      {
+        "input": [
+          3
+        ],
+        "expected": 2
+      }
+    ]
+  },
+  "dp_006": {
+    "function": "minCostClimbingStairs",
+    "testcases": [
+      {
+        "input": [
+          [
+            10,
+            15,
+            20
+          ]
+        ],
+        "expected": 15
+      },
+      {
+        "input": [
+          [
+            1,
+            100,
+            1,
+            1,
+            1,
+            100,
+            1,
+            1,
+            100,
+            1
+          ]
+        ],
+        "expected": 6
+      }
+    ]
+  },
+  "dp_007": {
+    "function": "divisorGame",
+    "testcases": []
+  },
+  "dp_008": {
+    "function": "isSubsequence",
+    "testcases": [
+      {
+        "input": [
+          "abc",
+          "ahbgdc"
+        ],
+        "expected": true
+      },
+      {
+        "input": [
+          "axc",
+          "ahbgdc"
+        ],
+        "expected": false
+      }
+    ]
+  },
+  "dp_009": {
+    "function": "findLength",
+    "testcases": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            4,
+            7
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "expected": 5
+      }
+    ]
+  },
+  "dp_010": {
+    "function": "soupServings",
+    "testcases": []
+  },
+  "dp_011": {
+    "function": "subarrayBitwiseORs",
+    "testcases": [
+      {
+        "input": [
+          [
+            0
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "input": [
+          [
+            1,
+            1,
+            2
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          [
+            1,
+            2,
+            4
+          ]
+        ],
+        "expected": 6
+      }
+    ]
+  },
+  "dp_012": {
+    "function": "mctFromLeafValues",
+    "testcases": [
+      {
+        "input": [
+          [
+            6,
+            2,
+            4
+          ]
+        ],
+        "expected": 32
+      },
+      {
+        "input": [
+          [
+            4,
+            11
+          ]
+        ],
+        "expected": 44
+      }
+    ]
+  },
+  "dp_013": {
+    "function": "maximumScoreAfterOperations",
+    "testcases": [
+      {
+        "input": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            5,
+            2,
+            5,
+            2,
+            1,
+            1
+          ]
+        ],
+        "expected": 11
+      },
+      {
+        "input": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          [
+            20,
+            10,
+            9,
+            7,
+            4,
+            3,
+            5
+          ]
+        ],
+        "expected": 40
+      }
+    ]
+  },
+  "dp_014": {
+    "function": "squareFreeSubsets",
+    "testcases": [
+      {
+        "input": [
+          [
+            3,
+            4,
+            4,
+            5
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          [
+            1
+          ]
+        ],
+        "expected": 1
+      }
+    ]
+  },
+  "dp_015": {
+    "function": "maxResult",
+    "testcases": [
+      {
+        "input": [
+          [
+            1,
+            -1,
+            -2,
+            4,
+            -7,
+            3
+          ],
+          2
+        ],
+        "expected": 7
+      },
+      {
+        "input": [
+          [
+            10,
+            -5,
+            -2,
+            4,
+            0,
+            3
+          ],
+          3
+        ],
+        "expected": 17
+      },
+      {
+        "input": [
+          [
+            1,
+            -5,
+            -20,
+            4,
+            -1,
+            3,
+            -6,
+            -3
+          ],
+          2
+        ],
+        "expected": 0
+      }
+    ]
+  },
+  "dp_016": {
+    "function": "coinChange",
+    "testcases": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            5
+          ],
+          11
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          [
+            2
+          ],
+          3
+        ],
+        "expected": -1
+      },
+      {
+        "input": [
+          [
+            1
+          ],
+          0
+        ],
+        "expected": 0
+      }
+    ]
+  },
+  "dp_017": {
+    "function": "minFlips",
+    "testcases": [
+      {
+        "input": [
+          "111000"
+        ],
+        "expected": 2
+      },
+      {
+        "input": [
+          "010"
+        ],
+        "expected": 0
+      },
+      {
+        "input": [
+          "1110"
+        ],
+        "expected": 1
+      }
+    ]
+  },
+  "dp_018": {
+    "function": "maxAlternatingSum",
+    "testcases": [
+      {
+        "input": [
+          [
+            4,
+            2,
+            5,
+            3
+          ]
+        ],
+        "expected": 7
+      },
+      {
+        "input": [
+          [
+            5,
+            6,
+            7,
+            8
+          ]
+        ],
+        "expected": 8
+      },
+      {
+        "input": [
+          [
+            6,
+            2,
+            1,
+            2,
+            4,
+            5
+          ]
+        ],
+        "expected": 10
+      }
+    ]
+  },
+  "dp_019": {
+    "function": "minimumVisitedCells",
+    "testcases": [
+      {
+        "input": [
+          [
+            [
+              3,
+              4,
+              2,
+              1
+            ],
+            [
+              4,
+              2,
+              3,
+              1
+            ],
+            [
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              4,
+              0,
+              0
+            ]
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "input": [
+          [
+            [
+              3,
+              4,
+              2,
+              1
+            ],
+            [
+              4,
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              1,
+              0
+            ],
+            [
+              3,
+              4,
+              1,
+              0
+            ]
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          [
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        ],
+        "expected": -1
+      }
+    ]
+  },
+  "dp_020": {
+    "function": "maxEnvelopes",
+    "testcases": [
+      {
+        "input": [
+          [
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "expected": 1
+      }
+    ]
+  },
+  "dp_021": {
+    "function": "dieSimulator",
+    "testcases": [
+      {
+        "input": [
+          2,
+          [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3
+          ]
+        ],
+        "expected": 34
+      },
+      {
+        "input": [
+          2,
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "expected": 30
+      },
+      {
+        "input": [
+          3,
+          [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3
+          ]
+        ],
+        "expected": 181
+      }
+    ]
+  },
+  "dp_022": {
+    "function": "sellingWood",
+    "testcases": [
+      {
+        "input": [
+          3,
+          5,
+          [
+            [
+              1,
+              4,
+              2
+            ],
+            [
+              2,
+              2,
+              7
+            ],
+            [
+              2,
+              1,
+              3
+            ]
+          ]
+        ],
+        "expected": 19
+      },
+      {
+        "input": [
+          4,
+          6,
+          [
+            [
+              3,
+              2,
+              10
+            ],
+            [
+              1,
+              4,
+              2
+            ],
+            [
+              4,
+              1,
+              3
+            ]
+          ]
+        ],
+        "expected": 32
+      }
+    ]
+  },
+  "dp_023": {
+    "function": "maxProfit",
+    "testcases": [
+      {
+        "input": [
+          2,
+          [
+            2,
+            4,
+            1
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "input": [
+          2,
+          [
+            3,
+            2,
+            6,
+            5,
+            0,
+            3
+          ]
+        ],
+        "expected": 7
+      }
+    ]
+  },
+  "dp_024": {
+    "function": "cheapestJump",
+    "testcases": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            4,
+            -1,
+            2
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "input": [
+          [
+            1,
+            2,
+            4,
+            -1,
+            2
+          ],
+          1
+        ],
+        "expected": []
+      },
+      {
+        "input": [
+          [
+            3,
+            4,
+            6,
+            -1,
+            2,
+            2,
+            7
+          ],
+          3
+        ],
+        "expected": [
+          1,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "input": [
+          [
+            -1,
+            4,
+            2,
+            3,
+            0,
+            5
+          ],
+          3
+        ],
+        "expected": []
+      },
+      {
+        "input": [
+          [
+            3,
+            -1,
+            4,
+            2,
+            0,
+            5
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "dp_025": {
+    "function": "uniqueLetterString",
+    "testcases": [
+      {
+        "input": [
+          "ABC"
+        ],
+        "expected": 10
+      },
+      {
+        "input": [
+          "ABA"
+        ],
+        "expected": 8
+      },
+      {
+        "input": [
+          "LEETCODE"
+        ],
+        "expected": 92
+      }
+    ]
+  },
+  "dp_026": {
+    "function": "numWays",
+    "testcases": [
+      {
+        "input": [
+          3,
+          2
+        ],
+        "expected": 4
+      },
+      {
+        "input": [
+          2,
+          4
+        ],
+        "expected": 2
+      },
+      {
+        "input": [
+          4,
+          2
+        ],
+        "expected": 8
+      }
+    ]
+  },
+  "dp_027": {
+    "function": "beautifulPartitions",
+    "testcases": [
+      {
+        "input": [
+          "23542185131",
+          3,
+          2
+        ],
+        "expected": 3
+      },
+      {
+        "input": [
+          "23542185131",
+          3,
+          3
+        ],
+        "expected": 1
+      },
+      {
+        "input": [
+          "3312958",
+          3,
+          1
+        ],
+        "expected": 1
+      }
+    ]
+  },
+  "dp_028": {
+    "function": "maxDotProduct",
+    "testcases": [
+      {
+        "input": [
+          [
+            2,
+            1,
+            -2,
+            5
+          ],
+          [
+            3,
+            0,
+            -6
+          ]
+        ],
+        "expected": 18
+      },
+      {
+        "input": [
+          [
+            3,
+            -2
+          ],
+          [
+            2,
+            -6,
+            7
+          ]
+        ],
+        "expected": 21
+      },
+      {
+        "input": [
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "expected": -1
+      }
+    ]
+  }
+}
